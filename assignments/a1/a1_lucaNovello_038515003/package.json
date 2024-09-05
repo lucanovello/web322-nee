@@ -1,0 +1,14 @@
+{
+  "name": "a1_lucaNovello_038515003",
+  "version": "1.0.0",
+  "description": "WEB322NEE | Luca Novello | Assignment 1",
+  "main": "a1.js",
+  "scripts": {
+    "test": "node a1.js"
+  },
+  "keywords": [
+    "a1"
+  ],
+  "author": "Luca Novello",
+  "license": "ISC"
+}
