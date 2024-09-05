@@ -59,7 +59,7 @@ function processDirectory(dirName) {
 
     let totalSize = 0;
     txtFiles.forEach((file) => {
-      const filePath = path.join(__dirname, dirName, file);
+      const filePath = path.join(dirName, file);
       const stats = fs.statSync(filePath);
       totalSize += stats.size;
       processFile(filePath);
